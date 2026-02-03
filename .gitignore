@@ -1,0 +1,42 @@
+# ===============================
+# ENV FILES (IMPORTANT)
+# ===============================
+.env
+**/.env
+
+# ===============================
+# PYTHON / DJANGO
+# ===============================
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+db.sqlite3
+venv/
+env/
+.venv/
+
+# Django media & static
+media/
+staticfiles/
+
+# ===============================
+# NODE / FRONTEND
+# ===============================
+node_modules/
+dist/
+build/
+
+# ===============================
+# IDE / OS
+# ===============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===============================
+# TEST / CACHE
+# ===============================
+.pytest_cache/
+.coverage
